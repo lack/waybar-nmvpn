@@ -1,0 +1,11 @@
+github.com/Wifx/gonetworkmanager v0.4.0 h1:iZ7o3z3YIqEEAa+bBOCwQkLLUQuxG02CdiE7NCe5y6A=
+github.com/Wifx/gonetworkmanager v0.4.0/go.mod h1:EdhHf2O00IZXfMv9LC6CS6SgTwcMTg/ZSDhGvch0cs8=
+github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
+github.com/godbus/dbus/v5 v5.0.2 h1:QtWdZQyXTEn7S0LXv9nVxPUiT37d1i7UntpRTiKM86E=
+github.com/godbus/dbus/v5 v5.0.2/go.mod h1:xhWf0FNVPg57R7Z0UbKHbJfkEywrmjJnf7w5xrFpKfA=
+github.com/lack/gowaybarplug v0.0.1 h1:v+ZURlUmXh1UXsEMQHAzBaojaRTrUmYUY+mJ7sOI/Yw=
+github.com/lack/gowaybarplug v0.0.1/go.mod h1:JDAsRZJ0F337PSepC1prQUc+8NOdaqTqKjTYm3eR67Q=
+github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
+github.com/stretchr/testify v1.8.0 h1:pSgiaMZlXftHpm5L7V1+rVB+AZJydKsMxsQBIJw4PKk=
+github.com/xorcare/pointer v1.1.0 h1:sFwXOhRF8QZ0tyVZrtxWGIoVZNEmRzBCaFWdONPQIUM=
+gopkg.in/yaml.v3 v3.0.1 h1:fxVm/GzAzEWqLHuvctI91KS9hhNmmWOoWu0XTYJS7CA=
