@@ -28,7 +28,7 @@ func GetVPNs() ([]Vpn, error) {
 			return nil, err
 		}
 		ctype := s["connection"]["type"].(string)
-		if ctype == "vpn" {
+		if ctype == "vpn" || ctype == "wireguard" {
 			vpn := Vpn{
 				Name: s["connection"]["id"].(string),
 				Uuid: s["connection"]["uuid"].(string),
