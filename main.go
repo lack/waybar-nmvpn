@@ -12,7 +12,7 @@ import (
 func loop(interval time.Duration) {
 	wb := waybar.NewUpdater()
 
-	for true {
+	for {
 		status := waybar.Status{
 			Text: "VPN",
 		}

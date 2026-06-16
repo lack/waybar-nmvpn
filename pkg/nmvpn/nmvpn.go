@@ -1,3 +1,4 @@
+// Package nmvpn representns Network Manager VPNs for waybar
 package nmvpn
 
 import (
@@ -6,7 +7,7 @@ import (
 
 type Vpn struct {
 	Name   string
-	Uuid   string
+	UUID   string
 	Active bool
 }
 
@@ -31,7 +32,7 @@ func GetVPNs() ([]Vpn, error) {
 		if ctype == "vpn" {
 			vpn := Vpn{
 				Name: s["connection"]["id"].(string),
-				Uuid: s["connection"]["uuid"].(string),
+				UUID: s["connection"]["uuid"].(string),
 			}
 			vpns = append(vpns, vpn)
 		}
@@ -42,14 +43,14 @@ func GetVPNs() ([]Vpn, error) {
 			return nil, err
 		}
 
-		actives, err := nm.GetPropertyActiveConnections()
+		actives, _ := nm.GetPropertyActiveConnections()
 		for _, a := range actives {
 			uuid, err := a.GetPropertyUUID()
 			if err != nil {
 				return nil, err
 			}
 			for i, v := range vpns {
-				if uuid == v.Uuid {
+				if uuid == v.UUID {
 					vpns[i].Active = true
 				}
 			}
